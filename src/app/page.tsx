@@ -8,9 +8,11 @@ export default function Home() {
       <main className="home">
         <div className="home-leftside">
           <Image
-            src="../../../img/main-image.jpg"
+            src="/img/main-image.jpg"
             className="main-img"
             alt="main-img"
+            width={335}
+            height={335}
           />
         </div>
         <div className="home-rightside">

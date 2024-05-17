@@ -31,7 +31,13 @@ export const PortfolioItem = ({
     <div className="portfolio-item">
       <div className="top-side">
         <div className="portfolio-img__box">
-          <Image className="portfolio-img" src={imgValue} alt="portfolioItemInfoimg"/>
+          <Image
+            className="portfolio-img"
+            src={imgValue}
+            alt="portfolioItemInfoimg"
+            width={350}
+            height={350}
+          />
         </div>
       </div>
       <div className="bottom-side">

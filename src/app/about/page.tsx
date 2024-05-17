@@ -267,7 +267,7 @@ const About = () => {
         &nbsp;
         <div className="box-line-1 mod">
           <div className="key-object">
-            &nbsp;&nbsp;&nbsp;aboutMe<span className="twodots">:</span>
+            {"&nbsp;&nbsp;&nbsp;"}aboutMe<span className="twodots">:</span>
           </div>
           <div className="key-value mod-key">
             "Привіт! Мене звати Максиміліан, я студент інформаційних технологій
