@@ -182,19 +182,6 @@ const About = () => {
             <span className="comma">,</span>
           </div>
         </div>
-        {/* <div className="box-line-1">
-          <div className="key-object">
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;languages
-            <span className="twodots">:</span>
-          </div>
-          <div className="key-value">
-            <span className="left-square-braket">&#91;</span> "Ukrainian"
-            <span className="comma">,</span>
-            &nbsp;"English"s&nbsp;
-            <span className="right-square-braket">&#93;</span>
-            <span className="comma">,</span>
-          </div>
-        </div> */}
         &nbsp;&nbsp;
         <span className="left-braket redbraket">&nbsp;&nbsp;&nbsp;&#125;</span>
         <span className="comma">,</span>

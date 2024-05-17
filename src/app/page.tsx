@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import { Container } from "../components/container/Container";
 
 export default function Home() {
@@ -6,13 +7,10 @@ export default function Home() {
     <Container>
       <main className="home">
         <div className="home-leftside">
-          <img
-            // className={`main-img ${
-            //   isToggleValue ? "box-shadow-dark" : "box-shadow-light"
-            // }`}
-            className="main-img"
+          <Image
             src="../../../img/main-image.jpg"
-            alt=""
+            className="main-img"
+            alt="main-img"
           />
         </div>
         <div className="home-rightside">
