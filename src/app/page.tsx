@@ -1,20 +1,16 @@
 "use client";
 import { Container } from "../components/container/Container";
-import { useSelector } from "react-redux";
-import { RootState } from "../lib/features/store/store";
 
 export default function Home() {
-  const isToggleValue = useSelector(
-    (state: RootState) => state.buttons.isToggle
-  );
   return (
     <Container>
       <main className="home">
         <div className="home-leftside">
           <img
-            className={`main-img ${
-              isToggleValue ? "box-shadow-dark" : "box-shadow-light"
-            }`}
+            // className={`main-img ${
+            //   isToggleValue ? "box-shadow-dark" : "box-shadow-light"
+            // }`}
+            className="main-img"
             src="../../../img/main-image.jpg"
             alt=""
           />

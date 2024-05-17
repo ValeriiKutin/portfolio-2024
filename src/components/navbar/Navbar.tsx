@@ -26,21 +26,21 @@ export const NavBar = () => {
           className="link-navbar"
           href={"/"}
         >
-          Home
+          home
         </Link>
         <Link
           // style={{ color: isToggleValue ? "#fff" : "#000" }}
           className="link-navbar"
           href={"/about"}
         >
-          About me
+          about me
         </Link>
         <Link
           // style={{ color: isToggleValue ? "#fff" : "#000" }}
           className="link-navbar"
           href={"/portfolio"}
         >
-          Portfolio
+          portfolio
         </Link>
         <DarkModeSwith />
         {/*      <button className="theame">

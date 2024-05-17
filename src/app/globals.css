@@ -335,11 +335,11 @@ h2 {
     height: 21px;
     width: 5px;
     left: 32px;
-    bottom: 9px;
+    bottom: 16px;
   }
   .btn::before {
     left: 32px;
-    bottom: 34px;
+    bottom: 42px;
   }
   .list-item {
     font-size: 14px;
@@ -527,14 +527,14 @@ h2 {
   .btn::after {
     content: "";
     position: absolute;
-    height: 14px;
+    height: 18px;
     width: 3px;
-    left: 60px;
-    bottom: 6px;
+    left: 35px;
+    bottom: 16px;
   }
   .btn::before {
-    left: 59px;
-    bottom: 24px;
+    left: 35px;
+    bottom: 40px;
     width: 4px;
     height: 4px;
   }

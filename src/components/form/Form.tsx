@@ -47,9 +47,9 @@ export const Form = () => {
 
   return (
     <form onSubmit={handleSubmit(onSubmitt)} className="form">
-      <h4 className="h2-form">Send your message to me</h4>
+      <h4 className="h2-form mb-2">Send your message to me</h4>
       <input
-        className={errors.name?.message ? "error" : ""}
+        className={`mb-2${errors.name?.message ? "error" : ""}`}
         id="input"
         type="text"
         placeholder="Name..."

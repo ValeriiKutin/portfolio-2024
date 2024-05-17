@@ -1,11 +1,11 @@
-'use client'
+"use client";
 
 import { useState } from "react";
 import { Modal } from "../modal/Modal";
 import "./index.css";
 
 interface PortfolioProps {
-  jaValue: string;
+  jsValue: string;
   htmlValue: string;
   cssValue: string;
   reactValue: string;
@@ -16,7 +16,7 @@ interface PortfolioProps {
 }
 
 export const PortfolioItem = ({
-  jaValue,
+  jsValue,
   htmlValue,
   cssValue,
   reactValue,
@@ -49,7 +49,7 @@ export const PortfolioItem = ({
             </svg>
             React
           </div>
-          <div className={`paper-clip__item ${jaValue}`}>
+          <div className={`paper-clip__item ${jsValue}`}>
             <svg
               className="svg-clip"
               xmlns="http://www.w3.org/2000/svg"
