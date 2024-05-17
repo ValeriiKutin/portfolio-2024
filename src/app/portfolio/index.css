@@ -1,0 +1,16 @@
+.portfolio-category {
+    width: 100%;
+    margin: 0 auto;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 50px;
+  }
+  .javascript-category {
+    background-color: rgb(207, 136, 55);
+  }
+  .react-category{
+      background-color: rgb(42, 42, 122);
+  }
+  .html-category{
+    background-color: rgb(238, 78, 78);
+  }

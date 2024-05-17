@@ -1,0 +1,52 @@
+.link-navbar {
+  text-decoration: none;
+  position: relative;
+  transition: 0.5s;
+}
+.link-navbar:not(:last-child) {
+  margin-right: 25px;
+}
+.link-navbar::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 5px;
+  bottom: -6px;
+  left: 0;
+  border-radius: 40px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(142, 87, 170, 1) 53%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  transition: width 0.5s;
+}
+
+.link-navbar:hover::after {
+  width: 100%;
+}
+.NavBar {
+  padding: 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.theame {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+.logo {
+  text-decoration: none;
+  position: relative;
+}
+.theame {
+  font-size: 22px;
+  transition: 0.4s;
+}
+
+.theame:hover {
+  transform: translateY(-10px);
+}
