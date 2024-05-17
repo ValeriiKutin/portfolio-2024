@@ -9,6 +9,7 @@ const PortfolioCategory = ({ category, title }: any) => {
         .filter((item) => item.whatGroup === category)
         .map((item) => (
           <PortfolioItem
+            key={item.id}
             jsValue={item.jsValue}
             htmlValue={item.htmlValue}
             cssValue={item.cssValue}
