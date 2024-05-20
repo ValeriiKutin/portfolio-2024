@@ -22,8 +22,6 @@ export const Form = () => {
     messeage: yup.string().required(),
   });
 
-  //   const navigate = useNavigate();
-
   const usersRef = collection(db, "users");
 
   const {
@@ -40,9 +38,6 @@ export const Form = () => {
       email: data.email,
       message: data.messeage,
     });
-    console.log(data);
-    // toast.success("Successfully send!");
-    // navigate("/");
   };
 
   return (
