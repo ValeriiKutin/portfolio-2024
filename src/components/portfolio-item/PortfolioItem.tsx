@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { Modal } from "../modal/Modal";
 import "./index.css";
-import Image from "next/image";
+// import Image from "next/image";
 
 interface PortfolioProps {
   jsValue: string;
@@ -31,7 +31,7 @@ export const PortfolioItem = ({
     <div className="portfolio-item">
       <div className="top-side">
         <div className="portfolio-img__box">
-          <Image
+          <img
             className="portfolio-img"
             src={imgValue}
             alt="portfolioItemInfoimg"
