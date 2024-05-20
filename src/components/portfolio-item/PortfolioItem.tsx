@@ -31,14 +31,14 @@ export const PortfolioItem = ({
     <div className="portfolio-item">
       <div className="top-side">
         <div className="portfolio-img__box">
-{/*           <img
+          <img
             className="portfolio-img"
             src={imgValue}
             alt="portfolioItemInfoimg"
             width={350}
             height={350}
             style={{ maxWidth: "100%", height: "100%" }}
-          /> */}
+          />
         </div>
       </div>
       <div className="bottom-side">
@@ -103,9 +103,9 @@ export const PortfolioItem = ({
         <a className="github-link" href={githubValue}>
           github
         </a>
-        <Modal active={modalActive} setActive={setModalActive}>
+      {/*   <Modal active={modalActive} setActive={setModalActive}>
           <iframe className="iframe-video" src={videoValue}></iframe>
-        </Modal>
+        </Modal> */}
       </div>
     </div>
   );
