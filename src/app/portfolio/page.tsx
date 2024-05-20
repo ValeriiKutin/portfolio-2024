@@ -6,9 +6,10 @@ const Portfolio = async () => {
   return (
     <section className="portfolio">
       <div className="portfolio-wrapper">
-        <PortfolioCategory category="react" title="React" />
+        {/* <PortfolioCategory category="react" title="React" />
         <PortfolioCategory category="javascript" title="JavaScript" />
-        <PortfolioCategory category="html" title="HTML" />
+        <PortfolioCategory category="html" title="HTML" /> */}
+        test
       </div>
     </section>
   );
