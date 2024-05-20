@@ -1,7 +1,8 @@
 import PortfolioCategory from "@/components/portfolio-item/PortfolioCategory";
 import "./index.css";
 
-const Portfolio = () => {
+const Portfolio = async () => {
+  // await new Promise((resolve) => setTimeout(resolve, 10000));
   return (
     <section className="portfolio">
       <div className="portfolio-wrapper">
