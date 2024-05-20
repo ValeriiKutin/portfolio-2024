@@ -1,4 +1,4 @@
-const loading = () => {
+const Loading = () => {
   return (
     <section className="portfolio mt-[180px]">
       <div className="portfolio-wrapper">
@@ -59,4 +59,4 @@ const loading = () => {
   );
 };
 
-export default loading;
+export default Loading;
