@@ -103,9 +103,13 @@ export const PortfolioItem = ({
         <a className="github-link" href={githubValue}>
           github
         </a>
-      {/*   <Modal active={modalActive} setActive={setModalActive}>
-          <iframe className="iframe-video" src={videoValue}></iframe>
-        </Modal> */}
+        <Modal active={modalActive} setActive={setModalActive}>
+          <iframe
+            className="iframe-video"
+            src={videoValue}
+            loading="lazy"
+          ></iframe>
+        </Modal>
       </div>
     </div>
   );
