@@ -100,6 +100,17 @@ const About = () => {
         </div>
         <div className="box-line-1">
           <div className="key-object">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;web framework 
+            <span className="twodots">:</span>
+          </div>
+          <div className="key-value">
+            <span className="left-square-braket">&#91;</span> "Next js"&nbsp;
+            <span className="right-square-braket">&#93;</span>
+            <span className="comma">,</span>
+          </div>
+        </div>
+        <div className="box-line-1">
+          <div className="key-object">
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;preprocessors
             <span className="twodots">:</span>
           </div>
@@ -253,13 +264,13 @@ const About = () => {
           <div className="key-value">
             <span className="left-square-braket">&#91;</span> "Photo"
             <span className="comma">,</span>
-            &nbsp;"Мандрівки
+            &nbsp;"Traveling"
             <span className="comma">,</span>
-            &nbsp;Гітара
+            &nbsp;"Guitar"
             <span className="comma">,</span>
-            &nbsp;Велосипед
+            &nbsp;"Bicycle"
             <span className="comma">,</span>
-            &nbsp;Біг&nbsp;
+            &nbsp;"Running"&nbsp;
             <span className="right-square-braket">&#93;</span>
             <span className="comma">,</span>
           </div>
@@ -267,7 +278,7 @@ const About = () => {
         &nbsp;
         <div className="box-line-1 mod">
           <div className="key-object">
-            {"&nbsp;&nbsp;&nbsp;"}aboutMe<span className="twodots">:</span>
+            &nbsp;&nbsp;&nbsp;aboutMe<span className="twodots">:</span>
           </div>
           <div className="key-value mod-key">
             "Привіт! Мене звати Максиміліан, я студент інформаційних технологій
