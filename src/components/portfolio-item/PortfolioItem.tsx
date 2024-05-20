@@ -37,6 +37,7 @@ export const PortfolioItem = ({
             alt="portfolioItemInfoimg"
             width={350}
             height={350}
+            style={{ maxWidth: "100%", height: "100%" }}
           />
         </div>
       </div>

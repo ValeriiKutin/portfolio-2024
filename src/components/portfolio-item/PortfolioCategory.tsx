@@ -1,3 +1,4 @@
+"use client";
 import { portfolioItemInfo } from "@/portfolio-data/data";
 import { PortfolioItem } from "./PortfolioItem";
 

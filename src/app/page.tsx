@@ -13,6 +13,7 @@ export default function Home() {
             alt="main-img"
             width={335}
             height={335}
+            style={{ maxWidth: "100%", height: "100%" }}
           />
         </div>
         <div className="home-rightside">

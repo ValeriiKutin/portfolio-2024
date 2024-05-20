@@ -77,7 +77,7 @@ export const portfolioItemInfo = [
     htmlValue: "html",
     cssValue: "css",
     reactValue: "displayNone",
-    imgValue: "/img/img-portfolio-js/img editor.png",
+    imgValue: "/img/img-portfolio-js/imgeditor.png",
     videoValue: "https://www.youtube.com/embed/Vvv9XOoIm9w",
     title: "Image editor",
     githubValue: "1488",
