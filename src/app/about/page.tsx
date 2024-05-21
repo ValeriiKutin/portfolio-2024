@@ -100,7 +100,7 @@ const About = () => {
         </div>
         <div className="box-line-1">
           <div className="key-object">
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;web framework 
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;web framework
             <span className="twodots">:</span>
           </div>
           <div className="key-value">
@@ -158,7 +158,7 @@ const About = () => {
         </div>
         <div className="box-line-1">
           <div className="key-object">
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HTML layout
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;languages
             <span className="twodots">:</span>
           </div>
           <span className="left-braket redbraket">&#123;</span>
@@ -281,13 +281,15 @@ const About = () => {
             &nbsp;&nbsp;&nbsp;aboutMe<span className="twodots">:</span>
           </div>
           <div className="key-value mod-key">
-            "Привіт! Мене звати Максиміліан, я студент інформаційних технологій
-            з великим захопленням розробкою програмного забезпечення. Я завжди
-            відкритий для вивчення нових технологій та вирішення цікавих
-            завдань. У вільний час я люблю фотографувати красу навколишнього
-            світу, грати на гітарі та відправлятися у захоплюючі подорожі. Моя
-            мета - поєднати свої уподобання з професійним розвитком, створюючи
-            інноваційні програмні продукти, що змінюють світ."
+            "Hello! My name is Valery, I am a front-end developer with
+            experience in HTML, CSS, JavaScript, React and TypeScript. My career
+            began as a freelancer, where I successfully completed numerous
+            projects. I am passionate about creating responsive and optimized
+            websites, and I'm always eager to learn new technologies. In my
+            spare time, I develop my own projects to improve my skills. My goal
+            is to use my knowledge and experience to create innovative solutions
+            that improve the user experience on the Internet."
+            {/* "Привіт! Мене звати Валерій, я front-end розробник з досвідом у HTML, CSS, JavaScript, React та TypeScript. Моя кар'єра почалася з фрілансу, де я успішно завершив численні проекти. Мене захоплює створення адаптивних та оптимізованих веб-сайтів, і я завжди прагну вивчати нові технології. У вільний час я розробляю власні проекти, щоб вдосконалити свої навички. Моя мета – використовувати свої знання та досвід для створення інноваційних рішень, що покращують користувацький досвід в Інтернеті." */}
             <span className="comma">,</span>
           </div>
         </div>
