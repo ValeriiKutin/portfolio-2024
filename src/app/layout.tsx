@@ -4,6 +4,7 @@ import { NavBar } from "@/components/navbar/Navbar";
 import { Providers } from "@/lib/features/Providers/Providers";
 import { Cursor } from "@/components/custom-cursor/Cursor";
 import ProvidersTheme from "./ProvidersTheme";
+import { ToastContainer } from "react-toastify";
 
 export const metadata: Metadata = {
   title: "Valerii Kut",
@@ -22,6 +23,7 @@ export default function RootLayout({
             <NavBar />
             {children}
             <Cursor />
+            <ToastContainer />
           </ProvidersTheme>
         </body>
       </html>

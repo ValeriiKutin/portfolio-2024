@@ -6,8 +6,11 @@ import * as yup from "yup";
 import "./index.css";
 // import "react-toastify/dist/ReactToastify.css";
 // import { toast } from "react-toastify";
-import { addDoc, collection } from "firebase/firestore";
+import { addDoc, collection, Timestamp } from "firebase/firestore";
 import { db } from "../../config/firebase";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import { useRouter } from "next/navigation";
 
 interface CreateFormData {
   name: string;
@@ -16,6 +19,7 @@ interface CreateFormData {
 }
 
 export const Form = () => {
+  const router = useRouter();
   const schema = yup.object().shape({
     name: yup.string().required(),
     email: yup.string().email().required(),
@@ -37,7 +41,11 @@ export const Form = () => {
       name: data.name,
       email: data.email,
       message: data.messeage,
+      date: Timestamp.fromDate(new Date()),
     });
+
+    toast.success("Successfully!");
+    router.push("/");
   };
 
   return (
