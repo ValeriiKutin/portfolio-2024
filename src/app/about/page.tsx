@@ -40,7 +40,7 @@ const About = () => {
             <span className="twodots">:</span>
           </div>
           <div className="key-value">
-            "Software Engenerieaer"<span className="comma">,</span>
+            "Software Engineer"<span className="comma">,</span>
           </div>
         </div>
         <div className="box-line-1">
