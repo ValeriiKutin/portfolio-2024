@@ -19,9 +19,7 @@ export default function RootLayout({
   return (
     <Providers>
       <html lang="en" suppressHydrationWarning={true}>
-        <Head>
-          <meta name="freelancehunt" content="c42defec0c705e7" />
-        </Head>
+      <meta name="freelancehunt" content="c42defec0c705e7" />
         <body>
           <ProvidersTheme>
             <NavBar />
