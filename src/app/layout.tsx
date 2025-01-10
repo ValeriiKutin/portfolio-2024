@@ -5,6 +5,7 @@ import { Providers } from "@/lib/features/Providers/Providers";
 import { Cursor } from "@/components/custom-cursor/Cursor";
 import ProvidersTheme from "./ProvidersTheme";
 import { ToastContainer } from "react-toastify";
+import Head from "next/head";
 
 export const metadata: Metadata = {
   title: "Valerii Kut",
@@ -18,6 +19,9 @@ export default function RootLayout({
   return (
     <Providers>
       <html lang="en" suppressHydrationWarning={true}>
+        <Head>
+          <meta name="freelancehunt" content="c42defec0c705e7" />
+        </Head>
         <body>
           <ProvidersTheme>
             <NavBar />
