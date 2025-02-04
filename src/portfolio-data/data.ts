@@ -5,6 +5,18 @@ export const portfolioItemInfo = [
     htmlValue: "html",
     cssValue: "css",
     reactValue: "react",
+    imgValue: "/img/img-portfolio-react/strava-clone.png",
+    videoValue: "https://www.youtube.com/embed/eYZwQ4xc2kI",
+    title: "Strava clone",
+    githubValue: "1488",
+    whatGroup: "react",
+  },
+  {
+    id: 1,
+    jsValue: "displayNone",
+    htmlValue: "html",
+    cssValue: "css",
+    reactValue: "react",
     imgValue: "/img/img-portfolio-react/ipad.png",
     videoValue: "https://www.youtube.com/embed/Myggk_uXFhc",
     title: "iPad with apps",
@@ -36,7 +48,7 @@ export const portfolioItemInfo = [
     whatGroup: "react",
   },
   {
-    id: 3,
+    id: 4,
     jsValue: "displayNone",
     htmlValue: "html",
     cssValue: "css",
@@ -48,7 +60,7 @@ export const portfolioItemInfo = [
     whatGroup: "react",
   },
   {
-    id: 3,
+    id: 5,
     jsValue: "displayNone",
     htmlValue: "html",
     cssValue: "css",
@@ -60,7 +72,7 @@ export const portfolioItemInfo = [
     whatGroup: "react",
   },
   {
-    id: 4,
+    id: 6,
     jsValue: "displayNone",
     htmlValue: "html",
     cssValue: "css",
@@ -72,7 +84,7 @@ export const portfolioItemInfo = [
     whatGroup: "react",
   },
   {
-    id: 6,
+    id: 7,
     jsValue: "displayNone",
     htmlValue: "html",
     cssValue: "css",
@@ -84,7 +96,7 @@ export const portfolioItemInfo = [
     whatGroup: "react",
   },
   {
-    id: 7,
+    id: 8,
     jsValue: "displayNone",
     htmlValue: "html",
     cssValue: "css",
@@ -96,7 +108,7 @@ export const portfolioItemInfo = [
     whatGroup: "react",
   },
   {
-    id: 8,
+    id: 9,
     jsValue: "displayNone",
     htmlValue: "html",
     cssValue: "css",
@@ -108,7 +120,7 @@ export const portfolioItemInfo = [
     whatGroup: "react",
   },
   {
-    id: 9,
+    id: 10,
     jsValue: "js",
     htmlValue: "html",
     cssValue: "css",
@@ -120,7 +132,7 @@ export const portfolioItemInfo = [
     whatGroup: "javascript",
   },
   {
-    id: 10,
+    id: 11,
     jsValue: "js",
     htmlValue: "html",
     cssValue: "css",
@@ -132,7 +144,7 @@ export const portfolioItemInfo = [
     whatGroup: "javascript",
   },
   {
-    id: 11,
+    id: 12,
     jsValue: "js",
     htmlValue: "html",
     cssValue: "css",
@@ -144,7 +156,7 @@ export const portfolioItemInfo = [
     whatGroup: "javascript",
   },
   {
-    id: 12,
+    id: 13,
     jsValue: "js",
     htmlValue: "html",
     cssValue: "css",
@@ -156,7 +168,7 @@ export const portfolioItemInfo = [
     whatGroup: "javascript",
   },
   {
-    id: 13,
+    id: 14,
     jsValue: "js",
     htmlValue: "html",
     cssValue: "css",
@@ -168,7 +180,7 @@ export const portfolioItemInfo = [
     whatGroup: "javascript",
   },
   {
-    id: 14,
+    id: 15,
     jsValue: "displayNone",
     htmlValue: "html",
     cssValue: "css",
@@ -180,7 +192,7 @@ export const portfolioItemInfo = [
     whatGroup: "html",
   },
   {
-    id: 15,
+    id: 16,
     jsValue: "displayNone",
     htmlValue: "html",
     cssValue: "css",
@@ -192,7 +204,7 @@ export const portfolioItemInfo = [
     whatGroup: "html",
   },
   {
-    id: 16,
+    id: 17,
     jsValue: "displayNone",
     htmlValue: "html",
     cssValue: "css",
@@ -204,7 +216,7 @@ export const portfolioItemInfo = [
     whatGroup: "html",
   },
   {
-    id: 17,
+    id: 18,
     jsValue: "displayNone",
     htmlValue: "html",
     cssValue: "css",
@@ -216,7 +228,7 @@ export const portfolioItemInfo = [
     whatGroup: "html",
   },
   {
-    id: 18,
+    id: 19,
     jsValue: "displayNone",
     htmlValue: "html",
     cssValue: "css",
@@ -228,7 +240,7 @@ export const portfolioItemInfo = [
     whatGroup: "html",
   },
   {
-    id: 19,
+    id: 20,
     jsValue: "displayNone",
     htmlValue: "html",
     cssValue: "css",
@@ -240,7 +252,7 @@ export const portfolioItemInfo = [
     whatGroup: "html",
   },
   {
-    id: 20,
+    id: 21,
     jsValue: "displayNone",
     htmlValue: "html",
     cssValue: "css",
@@ -252,7 +264,7 @@ export const portfolioItemInfo = [
     whatGroup: "html",
   },
   {
-    id: 21,
+    id: 22,
     jsValue: "displayNone",
     htmlValue: "html",
     cssValue: "css",
@@ -264,7 +276,7 @@ export const portfolioItemInfo = [
     whatGroup: "html",
   },
   {
-    id: 22,
+    id: 23,
     jsValue: "displayNone",
     htmlValue: "html",
     cssValue: "css",
@@ -276,7 +288,7 @@ export const portfolioItemInfo = [
     whatGroup: "html",
   },
   {
-    id: 23,
+    id: 24,
     jsValue: "displayNone",
     htmlValue: "html",
     cssValue: "css",
